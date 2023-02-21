@@ -36,7 +36,7 @@ Argo_xray_vmess="vmess://$(echo -n "\
 \"net\": \"ws\",\
 \"type\": \"none\",\
 \"host\": \"${ARGO}\",\
-\"path\": \"/$uuid-ring\",\
+\"path\": \"/$uuid-vm\",\
 \"tls\": \"tls\",\
 \"sni\": \"${ARGO}\"\
 }"\
